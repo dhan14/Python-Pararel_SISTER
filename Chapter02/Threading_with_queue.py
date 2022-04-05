@@ -51,3 +51,9 @@ if __name__ == '__main__':
     t2.join()
     t3.join()
     t4.join()
+'''
+Thread ini akan melakukan antri dari class producer maupun consumer yang dimana
+pada line 40 producer akan diantrikan oleh thread 1
+nantinya consumer akan memunculkannya pada thread selanjutnya
+dst
+'''

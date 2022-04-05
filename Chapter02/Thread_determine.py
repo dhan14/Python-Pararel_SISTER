@@ -1,6 +1,10 @@
 import threading
 import time
-
+''''
+Ada 3 fungsi yakni fungsi A,B dan C
+Fungsi ini akan melakukan running, jika proses memakan waktu lama akan masuk pada proses tunda /sleep
+lalu jika selesai kembalikan nilainya
+'''
 def function_A():
     print (threading.currentThread().getName()+str('--> starting \n'))
     time.sleep(2)
